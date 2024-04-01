@@ -4,16 +4,16 @@ import { BASE_URL } from "../../constants"
 
 const baseQuery = fetchBaseQuery({
   baseUrl: `${BASE_URL}/api`,
-  prepareHeaders: (headers, { getState }) => {
-    // Get token
-    const token =
-      (getState() as RootState).auth.token || localStorage.getItem("token")
-    // Hook token on every request to the server
-    if (token) {
-      headers.set("authorization", `Bearer ${token}`)
-    }
-    return headers
-  },
+  // prepareHeaders: (headers, { getState }) => {
+  //   // Get token
+  //   const token =
+  //     (getState() as RootState).auth.token || localStorage.getItem("token")
+  //   // Hook token on every request to the server
+  //   if (token) {
+  //     headers.set("authorization", `Bearer ${token}`)
+  //   }
+  //   return headers
+  // },
 })
 
 const baseQueryWithRetry = retry(baseQuery, { maxRetries: 0 })
