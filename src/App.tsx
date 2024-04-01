@@ -1,10 +1,9 @@
-import { Button } from "@nextui-org/react"
+import { Layout } from "./components/Layout"
 
 const App = () => {
   return (
     <div>
-      <Button color="primary">Button</Button>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Layout />
     </div>
   )
 }
