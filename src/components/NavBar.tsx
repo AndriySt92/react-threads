@@ -14,7 +14,7 @@ export const NavBar: React.FC = () => {
           </NavButton>
         </li>
         <li>
-          <NavButton href="following" icon={<FiUsers />}>
+          <NavButton href="followings" icon={<FiUsers />}>
             Followings
           </NavButton>
         </li>
