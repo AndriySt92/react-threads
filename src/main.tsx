@@ -5,6 +5,8 @@ import { NextUIProvider } from "@nextui-org/react"
 import App from "./App"
 import { store } from "./app/store"
 import "./index.css"
+import { ThemeProvider } from "./components"
+import { BrowserRouter } from "react-router-dom"
 
 const container = document.getElementById("root")
 
@@ -14,7 +16,11 @@ if (container) {
   root.render(
     <Provider store={store}>
       <NextUIProvider>
-        <App />
+        <ThemeProvider>
+          <BrowserRouter>
+            <App />
+          </BrowserRouter>
+        </ThemeProvider>
       </NextUIProvider>
     </Provider>,
   )
