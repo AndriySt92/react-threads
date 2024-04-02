@@ -14,6 +14,7 @@ import {
   Posts,
   UserProfile,
 } from "./pages"
+import { AuthGuard } from "./features/user/authGuard"
 
 const router = createBrowserRouter([
   {
@@ -52,7 +53,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <Provider store={store}>
     <NextUIProvider>
       <ThemeProvider>
-        <RouterProvider router={router} />
+        <AuthGuard>
+          <RouterProvider router={router} />
+        </AuthGuard>
       </ThemeProvider>
     </NextUIProvider>
   </Provider>,
