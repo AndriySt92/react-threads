@@ -9,5 +9,6 @@ import { Error } from "./Error"
 import { Input } from "./Input"
 import { Login } from "./Login"
 import { Register } from "./Register"
+import { Profile } from "./Profile"
 
-export { ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input, Login, Register }
+export { ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input, Login, Register, Profile }
