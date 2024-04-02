@@ -7,5 +7,7 @@ import { Header } from "./Header"
 import { Layout } from "./Layout"
 import { Error } from "./Error"
 import { Input } from "./Input"
+import { Login } from "./Login"
+import { Register } from "./Register"
 
-export { ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input }
+export { ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input, Login, Register }
