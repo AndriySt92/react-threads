@@ -10,5 +10,9 @@ import { Input } from "./Input"
 import { Login } from "./Login"
 import { Register } from "./Register"
 import { Profile } from "./Profile"
+import { User } from "./User"
+import { MetaInfo } from "./MetaInfo"
+import { CreatePost } from "./CreatePost"
+import { Typography } from "./Typography"
 
-export { ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input, Login, Register, Profile }
+export { User, MetaInfo, CreatePost, Typography, ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input, Login, Register, Profile }
