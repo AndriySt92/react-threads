@@ -16,7 +16,7 @@ export const postApi = api.injectEndpoints({
         method: "GET",
       }),
     }),
-    getPostById: builder.query<Post, void>({
+    getPostById: builder.query<Post, string>({
       query: id => ({
         url: `/posts/${id}`,
         method: "GET",
