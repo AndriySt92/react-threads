@@ -15,5 +15,27 @@ import { MetaInfo } from "./MetaInfo"
 import { CreatePost } from "./CreatePost"
 import { Typography } from "./Typography"
 import { Card } from "./Card"
+import { GoBack } from "./GoBack"
+import { CreateComment } from "./CreateComment"
 
-export { Card, User, MetaInfo, CreatePost, Typography, ThemeProvider, Button, Container, NavButton, Header, NavBar, Layout, Error, Input, Login, Register, Profile }
+export {
+  CreateComment,
+  GoBack,
+  Card,
+  User,
+  MetaInfo,
+  CreatePost,
+  Typography,
+  ThemeProvider,
+  Button,
+  Container,
+  NavButton,
+  Header,
+  NavBar,
+  Layout,
+  Error,
+  Input,
+  Login,
+  Register,
+  Profile,
+}
