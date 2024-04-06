@@ -17,8 +17,14 @@ import { Typography } from "./Typography"
 import { Card } from "./Card"
 import { GoBack } from "./GoBack"
 import { CreateComment } from "./CreateComment"
+import { CountInfo } from "./CountInfo"
+import { EditProfile } from "./EditProfile"
+import { ProfileInfo } from "./ProfileInfo"
 
 export {
+  ProfileInfo,
+  EditProfile,
+  CountInfo,
   CreateComment,
   GoBack,
   Card,
