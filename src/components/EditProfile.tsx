@@ -66,7 +66,7 @@ import {
           data.bio && formData.append("bio", data.bio)
           data.location && formData.append("location", data.location)
           selectedFile && formData.append("avatar", selectedFile)
-            debugger
+           
           await updateUser({ userData: formData, id }).unwrap()
           onClose()
         } catch (err) {
