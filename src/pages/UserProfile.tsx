@@ -99,7 +99,7 @@ export const UserProfile = () => {
                   )
                 }
               >
-                {data?.isFollowing ? 'Follow' : 'Unfollow'}
+                {data?.isFollowing ? 'Unfollow' : 'Follow'}
               </Button>
             ) : (
               <Button
